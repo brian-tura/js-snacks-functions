@@ -6,10 +6,8 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 // Dichiara la funzione qui.
 function firstLetter(names) {
     const nameInitals = [];
-    var holder;
     for(var i = 0; i < names.length; i++){
-        holder = names[i];
-        nameInitals.push(holder.charAt(0));
+        nameInitals.push(names[i].charAt(0));
     }
     return nameInitals;
 }
